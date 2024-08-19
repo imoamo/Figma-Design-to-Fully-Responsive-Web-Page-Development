@@ -1,0 +1,426 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.main {
+    width: 80%;
+    margin-left: auto;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+    top: 12%;
+    right: 0;
+    position: absolute;
+}
+
+.section_1 {
+    width: 70%;
+    padding: 1.3rem;
+    border: 2px solid #F2F4F7;
+    border-radius: 1.2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.s1_text {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.69rem;
+    text-align: left;
+}
+
+.multiple_img {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: .8rem;
+    margin-top: 2rem;
+
+}
+
+.single_component {
+    background: #FCFCFD;
+    padding: 1.2rem;
+    border-radius: .8rem;
+    border: 1px solid #F9FAFB;
+    text-align: center;
+}
+
+
+.image svg {
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+.first_para {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.69rem;
+    margin-top: 1.4rem;
+}
+
+.first_mess {
+    border: 1px solid red;
+    display: flex;
+}
+
+/* barchT css start */
+.barchat {
+    width: 70%;
+    border: 1px solid red;
+    padding-top: 1.6rem;
+    padding-right: 1.6rem;
+    padding-bottom: 3.2rem;
+    padding-left: 1.6rem;
+    margin-top: 3rem;
+    border: 2px solid #F2F4F7;
+    border-radius: 12px;
+}
+
+.bar_child_1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bar_text_1 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.69rem;
+    text-align: left;
+    color: #344054;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bar_text_2 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.69rem;
+    text-align: left;
+    color: #AD8EDD;
+}
+
+.bar_child_2 {
+    display: flex;
+    gap: .8rem;
+    padding: .4rem .8rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.bar_child_3 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 2rem;
+}
+
+.bar_text_3 {
+    color: #98A2B3;
+    font-weight: 400;
+    line-height: 1.6rem;
+    text-align: left;
+    font-size: 1.6rem;
+    padding: 1rem;
+}
+
+.bar_text_4 {
+    color: #1D2939;
+    font-weight: 400;
+    line-height: 1.6rem;
+    text-align: left;
+    font-size: 1.6rem;
+    background-color: #F1EBF9;
+    border-radius: .8rem;
+    padding: .8rem 1.5rem;
+
+}
+
+/* barchT css end */
+
+
+
+/* Section 1 - Quick Links */
+.section_1 {
+    width: 100%;
+    /* Use the full width available in the grid cell */
+    padding: 1.3rem;
+    border: 2px solid #F2F4F7;
+    border-radius: 1.2rem;
+}
+
+/* Bar Chart - Overview */
+.barchat {
+    width: 100%;
+    padding: 1.6rem;
+    margin-top: 3rem;
+    border: 2px solid #F2F4F7;
+    border-radius: 1.2rem;
+
+}
+
+/* Trading Accounts */
+.trading_accounts {
+    border-radius: 1.2rem;
+    border: 2px solid #F2F4F7;
+    padding: 1.6rem;
+}
+
+/* Open Trades */
+.open_trades {
+    border: 1px solid green;
+    margin-top: 2rem;
+    border-radius: 12px;
+    border: 2px solid #F2F4F7;
+    padding: 1.6rem;
+    padding-bottom: 0rem;
+}
+
+.trading_text_1 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.69rem;
+    text-align: left;
+}
+
+.trading_acc_child_1 {
+    border: 1px solid #EAECF0;
+    border-radius: 1.2rem;
+    padding: 2.4rem 1.7rem 2.4rem 1.7rem;
+    gap: 1.2rem;
+    margin-top: 2rem;
+}
+
+.tra_acc_child_text_1 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.49rem;
+    text-align: left;
+}
+
+.tra_acc_child_btns {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.tra_acc_child_btns_1 {
+    background: #F2F4F7;
+    border-radius: 1.2rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.49rem;
+    text-align: left;
+    color: #344054;
+    padding-top: .5rem;
+    padding-right: .5rem;
+    padding-bottom: .5rem;
+    padding-left: .8rem;
+}
+
+.tra_acc_child_btns_2 {
+    color: #344054;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.49rem;
+    text-align: left;
+    padding-top: .5rem;
+    padding-right: 5rem;
+    padding-bottom: .5rem;
+    padding-left: .8rem;
+}
+
+.tra_acc_child_flexbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.tra_acc_child_f_child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .6rem;
+
+}
+
+.tra_acc_child_f_child_1 {
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+    text-align: left;
+    color: #344054;
+    /* padding: 10px; */
+    padding-bottom: 10px;
+}
+
+.tra_acc_child_f_child_2 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.94em;
+    text-align: left;
+    color: #344054;
+    margin-top: -.3rem;
+}
+
+.tra_acc_child_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d3_text_1 {
+    color: #344054;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.69rem;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.d3_container_1 {
+    padding: 1.2rem 1.7rem 1.2rem 1.7rem;
+    gap: .8rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #EAECF0;
+    border-radius: 1.2rem;
+}
+
+.d3_flexbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.d3_flexbox_child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.d3_flexbox_child_t1 {
+    color: #667085;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.49rem;
+    text-align: left;
+}
+
+.d3_flexbox_child_t2 {
+    background: #EBFFEE;
+    padding-top: .4rem;
+    padding-right: .8rem;
+    padding-bottom: .4rem;
+    padding-left: .8rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.49rem;
+    text-align: left;
+    border-radius: 1.2rem;
+}
+
+.d3_flexbox_child_text {
+    color: #667085;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.49rem;
+    text-align: left;
+}
+
+.d3_flexbox_2 {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    Gap: .4rem
+}
+
+.d3_flexbox_2_text_1 {
+    color: #14AE5C;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.93rem;
+    text-align: left;
+
+}
+
+.d3_flexbox_2_text_2 {
+    color: #344054;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.69rem;
+    text-align: left;
+    margin-top: .3rem;
+}
+
+/* media queries for responsiveness */
+
+
+@media (max-width:1300px) {
+
+    .main {
+        width: 80%;
+        margin-left: auto;
+        padding: 2rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        top: 12%;
+        right: 0;
+        position: absolute;
+    }
+
+}
+
+@media (max-width:900px) {
+    .main {
+        width: 100%;
+    }
+}
+
+@media (max-width:760px) {
+    .multiple_img {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: .8rem;
+        margin-top: 2rem;
+
+    }
+}
+
+@media (max-width:600px) {
+    .multiple_img {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+
+
+@media (max-width:450px) {
+    .multiple_img {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .main {
+        top: 12%;
+    }
+}
+
+@media (max-width:360px) {
+    .multiple_img {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
